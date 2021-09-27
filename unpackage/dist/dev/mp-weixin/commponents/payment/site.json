@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cc-contact-card": "/node-modules/cc-ui-uni-app/components/cc-contact-card/cc-contact-card"
+  },
+  "component": true
+}

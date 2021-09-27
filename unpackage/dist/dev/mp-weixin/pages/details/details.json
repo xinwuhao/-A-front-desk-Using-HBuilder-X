@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cc-swiper": "/node-modules/cc-ui-uni-app/components/cc-swiper/cc-swiper",
+    "topbox": "/commponents/details/topbox/topbox",
+    "slither": "/commponents/details/slither/slither",
+    "selected": "/commponents/details/selected/selected",
+    "place": "/commponents/details/place/place",
+    "evaluate": "/commponents/details/evaluate/evaluate",
+    "heat": "/commponents/details/heat/heat"
+  }
+}

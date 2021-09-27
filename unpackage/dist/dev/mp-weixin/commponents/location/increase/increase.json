@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cc-address-list": "/node-modules/cc-ui-uni-app/components/cc-address-list/cc-address-list"
+  },
+  "component": true
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "全部订单",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cc-popup": "/node-modules/cc-ui-uni-app/components/cc-popup/cc-popup",
+    "cc-button": "/node-modules/cc-ui-uni-app/components/cc-button/cc-button"
+  }
+}

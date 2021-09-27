@@ -1,0 +1,1 @@
+<view class="data-v-722d69b1"><block wx:if="{{getBannerlist}}"><view style="padding:30rpx;width:700rpx;height:300rpx;" class="data-v-722d69b1"><cc-swiper vue-id="58ff6516-1" list="{{getBannerlist}}" bottom="30" right="100" height="300" class="data-v-722d69b1" bind:__l="__l"></cc-swiper></view></block></view>

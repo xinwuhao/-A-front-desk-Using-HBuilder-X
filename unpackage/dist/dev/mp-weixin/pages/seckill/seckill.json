@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "小米秒杀",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "cc-progress": "/node-modules/cc-ui-uni-app/components/cc-progress/cc-progress"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "cc-icon": "/node-modules/cc-ui-uni-app/components/cc-icon/cc-icon"
+  },
+  "component": true
+}

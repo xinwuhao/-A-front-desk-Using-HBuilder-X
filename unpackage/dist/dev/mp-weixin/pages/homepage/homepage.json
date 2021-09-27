@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "swiper": "/commponents/home/swiper/swiper",
+    "navigation": "/commponents/home/navigation/navigation",
+    "new-product": "/commponents/home/newProduct/newProduct",
+    "recommend": "/commponents/home/recommend/recommend"
+  }
+}

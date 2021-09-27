@@ -1,0 +1,194 @@
+{
+	"pages": [{
+			"path": "pages/homepage/homepage",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/seckill/seckill",
+			"style": {
+				"navigationBarTitleText": "小米秒杀",
+				"navigationStyle": "custom"
+			}
+		},
+			{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mapdet/mapdet",
+			"style": {
+				"navigationBarTitleText": "小米之家",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/xiaomi/xiaomi",
+			"style": {
+				"navigationBarTitleText": "小米之家",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/sort/sort",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/evaluate/evaluate",
+			"style": {
+				"navigationBarTitleText": "评价",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/location/location",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "全部订单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/xim/xim",
+			"style": {
+				"navigationBarTitleText": "小米之家",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/location/addLocation",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/payment/payment",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/password",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shoppingCart/shoppingCart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠卷",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/particulars/particulars",
+			"style": {
+				"navigationBarTitleText": "搜索详情",
+				"navigationStyle": "custom"
+			}
+		}
+
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#D8A26D",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/homepage/homepage",
+				"iconPath": "static/icon-home.png",
+				"selectedIconPath": "static/icon-home-selected.png"
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/sort/sort",
+				"iconPath": "static/chaxun_sel.png",
+				"selectedIconPath": "./static/chaxun.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/shoppingCart/shoppingCart",
+				"iconPath": "static/icon-cart.png",
+				"selectedIconPath": "static/icon-cart-selected.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/icon-user.png",
+				"selectedIconPath": "static/icon-user-selected.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"autoscan": true,
+		"custom": {
+			"^cc-(.*)": "cc-ui-uni-app/components/cc-$1/cc-$1.vue"
+		}
+	}
+}
